@@ -33,7 +33,7 @@ p, #card-text{
 }
 .nav-item{
     background-color: rgb(216, 221, 218);
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     justify-content: center;
@@ -41,7 +41,7 @@ p, #card-text{
 
 .navbar-brand{
     background-color: rgb(216, 221, 218);
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     justify-content: center;
