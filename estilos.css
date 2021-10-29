@@ -1,0 +1,50 @@
+
+h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #f0f3f3;
+    padding-top: 5%;
+
+}
+
+h2, h3{
+    font-family: 'EB Garamond', serif;
+    color: rgb(240, 243, 243);
+    padding-bottom: 5px;
+}
+
+h4{
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    color: rgb(139, 63, 20);
+    padding-bottom: 5px;
+}
+
+h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(139, 63, 20);
+    font-weight: 700;
+}
+p, #card-text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+}
+#items{
+    background-color: rgb(216, 221, 218);
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+}
+
+
+#header{
+    height: 400px;       
+    background-image: url(./IMG/CIMEF.jpg);
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
