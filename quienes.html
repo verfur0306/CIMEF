@@ -12,31 +12,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lora:ital,wght@1,400;1,700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <title>Profesionales</title>
+    <title>CIMEF - Quiénes Somos</title>
 </head>
 <body>
        <!--nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" id="barra">
-            <ul class="navbar-nav col-lg-12" id="items">
-              <li class="nav-item">
-                <a class="nav-link active" href="./index.html">CIMEF</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./quienes.html">Quiénes somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./profesionales.html">Profesionales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./donde.html">Dónde estamos</a>
-              </li>
-            </ul>
-          </div>
+       <div class="container">
+        <div class="row">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid" id="barra">
+             <a class="navbar-brand" href="./index.html">CIMEF</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+         <li class="nav-item">
+           <a class="nav-link" href="./quienes.html">Quiénes somos</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="./profesionales.html">Profesionales</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="./donde.html">Dónde estamos</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+
+ </nav>
         </div>
-      </nav>
+      </div>
     <!--fin de nav-->
-      <!--tabla-->
+      <!--intro-->
     <div class="container">
         <div class="row bg-light">
             <h4 class="animate__animated animate__fadeIn m-1 text-center">Quiénes somos</H4>
@@ -49,6 +56,21 @@
                 
         </div>
     </div>
-    <!--fin de tabla-->
+        <!--fin de intro-->
+        <!--carrusel-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        <!--fin de carrusel-->
 </body>
 </html>
