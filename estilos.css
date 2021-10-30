@@ -8,7 +8,14 @@ h1{
 
 }
 
-h2, h3{
+#accordion-header{
+    font-family: 'EB Garamond', serif;
+    color: rgb(196, 3, 3);
+    font-size: large;
+    padding-bottom: 5px;
+}
+
+h3{
     font-family: 'EB Garamond', serif;
     color: rgb(240, 243, 243);
     padding-bottom: 5px;
